@@ -1,6 +1,7 @@
 {
     "name" : "wxy/common",
     "description": "旺学业tars框架通用组件",
+    "license" : "Apache-2.0",
     "require": {
         "nesbot/carbon": "2.16.3 as 1.34.0",
         "easyswoole/redis": "^1.3",
@@ -15,8 +16,5 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
     }
 }

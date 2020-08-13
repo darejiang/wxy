@@ -23,7 +23,7 @@ class RedisUtils
         $config->setMaxObjectNum(20);
 
         $redisConfig = new \EasySwoole\Redis\Config\RedisConfig($conf);
-        $customRedisPool = new \HttpServer\redis\RedisPool($config,$redisConfig);
+        $customRedisPool = new RedisPool($config,$redisConfig);
         \EasySwoole\Pool\Manager::getInstance()->register($customRedisPool,'redis');
     }
 

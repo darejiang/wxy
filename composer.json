@@ -1,5 +1,5 @@
 {
-    "name" : "wxy-common",
+    "name" : "wxy/common",
     "description": "旺学业tars框架通用组件",
     "require": {
         "nesbot/carbon": "2.16.3 as 1.34.0",

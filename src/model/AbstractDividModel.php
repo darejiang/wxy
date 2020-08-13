@@ -1,7 +1,7 @@
 <?php
 
 
-namespace wxy\common\modal;
+namespace wxy\common\model;
 
 
 use EasySwoole\ORM\AbstractModel;

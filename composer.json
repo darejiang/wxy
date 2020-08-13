@@ -1,6 +1,6 @@
 {
     "name" : "wxy-common",
-    "description": "wxy common library",
+    "description": "旺学业tars框架通用组件",
     "require": {
         "nesbot/carbon": "2.16.3 as 1.34.0",
         "easyswoole/redis": "^1.3",
@@ -10,16 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "wxy\\common\\" : "./"
+            "wxy\\common\\" : "src/"
         }
     },
     "minimum-stability": "stable",
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.aliyun.com/composer/"
-        }
-    },
     "require-dev": {
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/",
     }
 }

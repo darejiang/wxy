@@ -14,7 +14,7 @@
             "wxy\\common\\" : "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require-dev": {
     }
 }

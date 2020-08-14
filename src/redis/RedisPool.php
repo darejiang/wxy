@@ -30,7 +30,6 @@ class RedisPool extends AbstractPool
     {
         //根据传入的redis配置进行new 一个redis
         $redis = new Redis($this->redisConfig);
-        $redis->set("testTime",date('y-M-d H:i:s',time()));
         return $redis;
     }
 }
